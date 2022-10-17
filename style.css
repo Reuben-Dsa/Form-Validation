@@ -1,0 +1,62 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+body{
+    padding: 20;
+    margin: 20;
+    background: linear-gradient(to right, #0f5f87,#3c9662);
+    font-family:'Raleway',sans-serif;
+    font-size: medium;
+}
+
+h1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#pers_det{
+    padding: 30px;
+    padding-top: 5px;
+    background: rgba(224, 222, 231, 0.7);
+    border-radius: 5px;
+    width:900px;
+    height:780px;
+    margin:35px auto;
+    font-family:'Raleway',sans-serif
+}
+input[type=text],[type=password],[type=tel],[type=email] {
+    width:100%;
+    height:40px;
+    padding:5px;
+    margin-bottom:25px;
+    margin-top:5px;
+    border:2px solid #ccc;
+    color:#4f4f4f;
+    font-size:16px;
+    border-radius:5px
+}
+input[type=radio] {
+    margin:10px 10px 0
+}
+label {
+    color:#464646;
+    text-shadow:0 1px 0 #fff;
+    font-size:16px;
+    font-weight:700
+}
+
+input[type=submit],#clear {
+    font-size:16px;
+    background:linear-gradient(#0f5f87 5%,#034769 100%);
+    border:1px solid #e5a900;
+    color:#fffbf3;
+    font-weight:700;
+    cursor:pointer;
+    width:100px;
+    border-radius:5px;
+    padding:15px;
+    margin-left:525px;
+}
+
+input[type=submit]:hover {
+    background:linear-gradient(#ffdd7f 5%,#ffbc00 100%)
+}

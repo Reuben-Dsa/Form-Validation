@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <div id="pers_det">
+            <h1>Personal details: </h1>
+            <label for="name">Full name: </label>
+            <input type="text" name="f_name" placeholder="first name" id="name" >
+            <input type="text" name="l_name" placeholder="last name" id="name" ><br><br>
+    
+            <label for="e-mail">Enter your email: </label>
+            <input type="email" name="e_mail" id="e-mail" placeholder="name@example.com"><br><br>
+    
+            Gender:            
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="female"> Female</label>
+            <input type="radio" name="gender" id="female" required><br><br>
+    
+            <label for="phone">Enter your phone number</label>
+            <input type="tel" name="phone_no" id="phone">
+            <br><br>
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" id="password">
+            <br><br>
+            <label for="password">Confirm password</label>
+            <input type="password" name="password" id="con_password">
+        </div>
+        <br><br>
+        <br>
+        <div id="Final">
+            <input type="submit" title="Submit">
+            <button onclick="clear()" id = "clear">Clear</button>
+        </div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
